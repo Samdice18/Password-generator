@@ -15,7 +15,7 @@ def password_length():
                 print("\nThe length should be over 8 characters and less than 56 characters\n")
                 continue
             
-            if int(user_length) > 8:
+            elif int(user_length) > 8:
                 return user_length
 
 def secret_password(length):
